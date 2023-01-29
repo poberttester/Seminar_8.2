@@ -1,9 +1,12 @@
-
+# Шифр Цезаря
 
 def coder_func(message, switch):
 
     alfavite = 'АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯАБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ'
     result = ''
+
+    if switch == 0:
+        switch = 3
 
 
     for char in message:
